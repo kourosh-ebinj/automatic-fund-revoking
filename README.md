@@ -1,7 +1,6 @@
-# Service Name
-Automatic Fund Revoking
+# Automatic Fund Revoking
 
-# This project uses:
+**This project uses:**
 - elastic search for logging
 - redis service for caching
 - sql server database

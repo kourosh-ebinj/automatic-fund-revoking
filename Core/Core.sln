@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8051FFE-C530-43EB-849A-2466AF55AFF7}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		.gitlab-ci.yml = .gitlab-ci.yml
+		CodeCoverage.runsettings = CodeCoverage.runsettings
+		docker-compose.dcproj = docker-compose.dcproj
+		docker-compose.override.yml = docker-compose.override.yml
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+		LICENSE = LICENSE
+		NuGet.config = NuGet.config
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCore", "WebCore\WebCore.csproj", "{34382632-8B7C-49A2-8B0A-5FA09CB26071}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{3EE756A0-03B6-4835-9B1E-DB3FEED9A74D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{30968767-E70D-4D13-8B05-8D88535F7F01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34382632-8B7C-49A2-8B0A-5FA09CB26071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34382632-8B7C-49A2-8B0A-5FA09CB26071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34382632-8B7C-49A2-8B0A-5FA09CB26071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34382632-8B7C-49A2-8B0A-5FA09CB26071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE756A0-03B6-4835-9B1E-DB3FEED9A74D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE756A0-03B6-4835-9B1E-DB3FEED9A74D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE756A0-03B6-4835-9B1E-DB3FEED9A74D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE756A0-03B6-4835-9B1E-DB3FEED9A74D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30968767-E70D-4D13-8B05-8D88535F7F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30968767-E70D-4D13-8B05-8D88535F7F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30968767-E70D-4D13-8B05-8D88535F7F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30968767-E70D-4D13-8B05-8D88535F7F01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C27BD80-95FA-402E-8C23-2D44778CFC46}
+	EndGlobalSection
+EndGlobal

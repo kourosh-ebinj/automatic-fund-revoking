@@ -1,0 +1,23 @@
+﻿body {
+    
+}
+
+.topbar {
+    background-color: #fdfdfe !important;
+    border-bottom: solid 1px #ccc;
+    color: #fff;
+}
+    .topbar * {
+        color: #fff;
+    }
+.topbar-wrapper img {
+    /*content: url("/swagger-ui/swagger-logo.png");*/
+    direction: rtl; 
+    text-align: center;
+}
+.opblock-summary-description {
+    direction: rtl;
+}
+.parameters td p {
+    direction: rtl;
+}

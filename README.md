@@ -1,4 +1,6 @@
 # Automatic Fund Revoking
+This project is an innovative financial application for revoking the bought funds automatically (24/7)
+
 
 **This project uses:**
 - elastic search for logging

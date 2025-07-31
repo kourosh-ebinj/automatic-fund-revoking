@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Service</name>
+    </assembly>
+    <members>
+        <member name="T:Service.Mappings.AutoMapper.AutoMapperProfile">
+            <summary>
+            AutoMapper mappings must be added to this class
+            </summary>
+        </member>
+    </members>
+</doc>

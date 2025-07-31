@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <Title>Core helpers library</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>1.0.5</Version>
+    <Description>Core Library</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Utility.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Abstractions\gRPC\**" />
+    <Compile Remove="Abstractions\Messaging\**" />
+    <Compile Remove="Abstractions\Services\**" />
+    <Compile Remove="Domain\**" />
+    <EmbeddedResource Remove="Abstractions\gRPC\**" />
+    <EmbeddedResource Remove="Abstractions\Messaging\**" />
+    <EmbeddedResource Remove="Abstractions\Services\**" />
+    <EmbeddedResource Remove="Domain\**" />
+    <None Remove="Abstractions\gRPC\**" />
+    <None Remove="Abstractions\Messaging\**" />
+    <None Remove="Abstractions\Services\**" />
+    <None Remove="Domain\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      
+  </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="readme.txt">
+            <Pack>true</Pack>
+            <PackagePath>\</PackagePath>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core\Core.csproj" />
+    </ItemGroup>
+    
+</Project>
